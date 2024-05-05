@@ -75,6 +75,8 @@ ul {
     word-wrap: break-word;
     padding-left: 20px;
     cursor: pointer;
+    display:contents ;
+    justify-content: space-between;
 }
 
  ul button{
@@ -85,7 +87,7 @@ ul {
     width:90px;
     height: 30px; 
     text-align: center;
-
+   
 
 
 }  
