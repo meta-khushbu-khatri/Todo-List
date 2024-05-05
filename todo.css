@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(135deg,#234565, #cbd0d5);
+    padding: 10px;
+  
+}
+.todo-ap{
+    border: none;
+    width: 100%;
+   max-width: 540px;
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.h{
+     text-align: center;
+     color: rgb(64, 64, 185);
+     padding-bottom: 10px;
+    
+}
+.row{
+    border: 2px solid lightblue;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+} 
+.input-text{
+
+ flex: 1;
+ border: none;
+ outline: none;
+ background: transparent;
+ padding: 7px;
+ font-weight: 14px;
+
+
+
+
+}
+.btn{
+  
+ border: none;
+ outline: none;
+ background: rgb(244, 189, 71);
+ padding: 16px 50px;
+ color: #fff;
+ font-size: 16px;
+ cursor: pointer;
+ border-radius: 40px;
+    
+
+}
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+ ul button{
+    background-color: rgb(71, 71, 179);
+  
+    border-radius: 10px;
+    
+    
+    color:white;
+    cursor: pointer;
+    width:90px;
+    height: 30px; 
+    text-align: center;
+
+
+
+}  
+.todo-div{
+    display: flex;
+    height: 35px;
+    justify-content: space-between; 
+    
+    margin-bottom: 2px;
+    margin-inline: 15px;
+    padding-inline: 15px;
+}
