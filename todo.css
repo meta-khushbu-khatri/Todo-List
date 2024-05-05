@@ -14,11 +14,14 @@
 }
 .todo-ap{
     border: none;
- 
+    width: 800px;
+    /* display: flex; */
     background-color: #fff;
     margin: 100px auto;
     padding: 20px;
     border-radius: 10px;
+
+    
 
 }
 .h{
@@ -41,9 +44,9 @@
 
  flex: 1;
  border: none;
- width: 300px;
+
  outline: none;
- 
+ width: 500px;
  background: transparent;
  padding: 7px;
  font-weight: 14px;
@@ -68,16 +71,15 @@
 ul {
     list-style-type: none;
     font-size: 20px;
+    width: 80%;
+    word-wrap: break-word;
     padding-left: 20px;
     cursor: pointer;
 }
 
  ul button{
     background-color: rgb(71, 71, 179);
-  
     border-radius: 10px;
-    
-    
     color:white;
     cursor: pointer;
     width:90px;
@@ -89,9 +91,10 @@ ul {
 }  
 .todo-div{
     display: flex;
-    height: 35px;
+   
+   
+    /* height: 35px; */
     justify-content: space-between; 
-    
     margin-bottom: 2px;
     margin-inline: 15px;
     padding-inline: 15px;
