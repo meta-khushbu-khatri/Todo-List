@@ -14,8 +14,7 @@
 }
 .todo-ap{
     border: none;
-    width: 100%;
-   max-width: 540px;
+ 
     background-color: #fff;
     margin: 100px auto;
     padding: 20px;
@@ -42,7 +41,9 @@
 
  flex: 1;
  border: none;
+ width: 300px;
  outline: none;
+ 
  background: transparent;
  padding: 7px;
  font-weight: 14px;
